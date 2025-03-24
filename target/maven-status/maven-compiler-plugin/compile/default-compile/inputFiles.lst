@@ -1,0 +1,13 @@
+/Users/isaacirwin/homework_planner/src/main/java/controller/UserController.java
+/Users/isaacirwin/homework_planner/src/main/java/model/premodel/InvalidDateException.java
+/Users/isaacirwin/homework_planner/src/main/java/security/SecurityConfig.java
+/Users/isaacirwin/homework_planner/src/main/java/model/User.java
+/Users/isaacirwin/homework_planner/src/main/java/model/premodel/Date.java
+/Users/isaacirwin/homework_planner/src/main/java/model/Task.java
+/Users/isaacirwin/homework_planner/src/main/java/controller/TaskController.java
+/Users/isaacirwin/homework_planner/src/main/java/repository/TaskRepository.java
+/Users/isaacirwin/homework_planner/src/main/java/service/TaskService.java
+/Users/isaacirwin/homework_planner/src/main/java/model/premodel/Priority.java
+/Users/isaacirwin/homework_planner/src/main/java/security/JWTFilter.java
+/Users/isaacirwin/homework_planner/src/main/java/service/UserService.java
+/Users/isaacirwin/homework_planner/src/main/java/repository/UserRepository.java

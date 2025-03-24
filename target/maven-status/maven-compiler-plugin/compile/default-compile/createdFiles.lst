@@ -1,0 +1,13 @@
+model/premodel/Date.class
+repository/TaskRepository.class
+repository/UserRepository.class
+service/TaskService.class
+controller/TaskController.class
+model/premodel/Priority.class
+controller/UserController.class
+security/JWTFilter.class
+security/SecurityConfig.class
+model/User.class
+service/UserService.class
+model/Task.class
+model/premodel/InvalidDateException.class

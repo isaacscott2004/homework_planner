@@ -1,0 +1,8 @@
+controller/TaskControllerTests.class
+controller/UserControllerTests.class
+repository/UserRepoTests.class
+repository/TaskRepoTests.class
+model/UserTests.class
+service/TaskServiceTests.class
+model/TaskTests.class
+service/UserServiceTests.class
