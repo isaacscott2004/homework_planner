@@ -6,23 +6,34 @@ import model.premodel.Priority;
 import java.util.Objects;
 
 public class Task {
+    private int id;
     private String taskName;
     private Priority priority;
     private String description;
     private Date date;
 
 
-    public Task(String taskName, Priority priority, String description, Date date){
+    public Task(int id, String taskName, Priority priority, String description, Date date){
+        this.id = id;
         this.taskName = taskName;
         this.priority = priority;
         this.description = description;
         this.date = date;
     }
     public Task(){
+        this.id = 0;
         this.taskName = null;
         this.priority = null;
         this.description = null;
         this.date = null;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTaskName() {
@@ -65,13 +76,14 @@ public class Task {
 
     @Override
     public int hashCode() {
-        return Objects.hash(taskName, priority, description, date);
+        return Objects.hash(id, taskName, priority, description, date);
     }
 
     @Override
     public String toString() {
         return "Task{" +
-                "taskName='" + taskName + '\'' +
+                "id=" + id + '\'' +
+                ", taskName='" + taskName + '\'' +
                 ", priority=" + priority +
                 ", description='" + description + '\'' +
                 ", date=" + date +
